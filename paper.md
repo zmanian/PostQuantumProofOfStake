@@ -41,7 +41,7 @@ Let us focus on BFT protocols that rely on cryptographic signatures as their pri
 |XMSS | 13KB |10KB | https://eprint.iacr.org/2011/484.pdf|
 |ZKBoo| 117 KB | 64KB | https://eprint.iacr.org/2017/279.pdf |
 |Tesla| 1.25KB | 1096KB | https://cryptojedi.org/papers/tesla-20161005.pdf|
-|Dillithium 1.3KB | .89Kb | https://cryptojedi.org/papers/dilithium-20170627.pdf|
+|Dillithium| 1.3KB | .89Kb | https://cryptojedi.org/papers/dilithium-20170627.pdf|
 
 Elliptic curve signatures are usually on the approximately of 64 bytes.  10 times smaller than even the newest post quantum options. It is also possible to take advantage of signature aggregation in these protocols allowing the opportunity to have 100s of signatures combined into a single signature.  Thus 64 bytes can provide proof that hundred of validators validated a block. No systems for doing this exists yet in the post-quantum regime but seems reasonable to believe that post quantum zero knowledge proof systems or lattice based systems will eventually be available which can provide aggregate signatures. Adopting a hybrid classical and post quantum strategy means a significant increase in the size the data structures needed to execute a BFT protocol.
 
