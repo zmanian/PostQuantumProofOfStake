@@ -35,11 +35,13 @@ A cryptographic primitive is generic description of a cryptographic component li
 Let us focus on BFT protocols that rely on cryptographic signatures as their primary primitive. Post Quantum signatures are available. It is possible to construct a signature primitive with well known cryptographic symmetric primitives like hash functions whose security well understood in the post quantum environment. These signature schemes have their roots in cryptographic work going back almost 4 decades. The cost of post quantum security is a substantial increase in the size of public keys and signatures. On the other hand, we have novel signatures schemes based on lattice and module lattice problems. They offer much smaller increases in key and signature sizes but the underlying cryptography is much less understood.
 
 
-Sphincs 41 KB sigs 1KB pub keys https://sphincs.cr.yp.to/sphincs-20150202.pdf
-XMSS 13KB sigs . 10KB pub keys https://eprint.iacr.org/2011/484.pdf
-Tesla 1.25KB sigs 1096KB pub   https://cryptojedi.org/papers/tesla-20161005.pdf
-ZKBoo 117 KB sigs 64KB pub keys https://eprint.iacr.org/2017/279.pdf
-Dillithium 1.3KB sigs .89Kb pubkeys https://cryptojedi.org/papers/dilithium-20170627.pdf
+| Algorithim | Signature Size | PubKey Size | Link|
+|------------|----------------|-------------|-----|
+|Sphincs | 41 KB | 1KB | https://sphincs.cr.yp.to/sphincs-20150202.pdf|
+|XMSS | 13KB |10KB | https://eprint.iacr.org/2011/484.pdf|
+|ZKBoo 117 KB | 64KB | https://eprint.iacr.org/2017/279.pdf |
+|Tesla| 1.25KB | 1096KB | https://cryptojedi.org/papers/tesla-20161005.pdf|
+|Dillithium 1.3KB | .89Kb | https://cryptojedi.org/papers/dilithium-20170627.pdf|
 
 Elliptic curve signatures are usually on the approximately of 64 bytes.  10 times smaller than even the newest post quantum options. It is also possible to take advantage of signature aggregation in these protocols allowing the opportunity to have 100s of signatures combined into a single signature.  Thus 64 bytes can provide proof that hundred of validators validated a block. No systems for doing this exists yet in the post-quantum regime but seems reasonable to believe that post quantum zero knowledge proof systems or lattice based systems will eventually be available which can provide aggregate signatures. Adopting a hybrid classical and post quantum strategy means a significant increase in the size the data structures needed to execute a BFT protocol.
 
