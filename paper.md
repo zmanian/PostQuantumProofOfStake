@@ -2,7 +2,7 @@
 #blockchain #consensus #Tendermint #PostQuantum
 
 ## Introduction
-Proof of Stake blockchains are distributed state machines that use the internal state of ledger as Public Key infrastructure for a Byzantine Fault Tolerant consensus process.  One characteristics of Proof of Stake blocking chains that differentiates from Proof of Work chains is that they rely on the cryptographic signatures verified against the internal PKI. Proof of Work chains rely on anonymous signatures of work. Forgery or theft of keys from the internal PKI can undermine the soundness of a Proof of Stake system.
+Proof of Stake blockchains are distributed state machines that use the internal state of ledger as Public Key infrastructure for a Byzantine Fault Tolerant consensus process.  One characteristics of Proof of Stake blocking chains that differentiates from Proof of Work chains is that they rely on the cryptographic signatures verified against the internal PKI. Proof of Work chains rely on anonymous signatures of work. Forgery or theft of keys from the internal PKI can undermine the soundness of a Proof of Stake system.
 
 The Public Key infrastructure used in contemporary Proof of Stake blockchains is typically based on elliptic curve cryptography which affords small, quickly verified signatures. Forgery of these signatures is believed to a hard problem requiring a solution to the discrete logarithm problem over the elliptic curve group. 
 
