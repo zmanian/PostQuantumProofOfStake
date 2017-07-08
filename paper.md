@@ -39,7 +39,7 @@ Let us focus on BFT protocols that rely on cryptographic signatures as their pri
 |------------|----------------|-------------|-----|
 |Sphincs | 41 KB | 1KB | https://sphincs.cr.yp.to/sphincs-20150202.pdf|
 |XMSS | 13KB |10KB | https://eprint.iacr.org/2011/484.pdf|
-|ZKBoo 117 KB | 64KB | https://eprint.iacr.org/2017/279.pdf |
+|ZKBoo| 117 KB | 64KB | https://eprint.iacr.org/2017/279.pdf |
 |Tesla| 1.25KB | 1096KB | https://cryptojedi.org/papers/tesla-20161005.pdf|
 |Dillithium 1.3KB | .89Kb | https://cryptojedi.org/papers/dilithium-20170627.pdf|
 
