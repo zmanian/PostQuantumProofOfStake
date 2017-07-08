@@ -1,5 +1,4 @@
 # PostQuantum Soundness in Proof of Stake Blockchains
-#blockchain #consensus #Tendermint #PostQuantum
 
 ## Introduction
 Proof of Stake blockchains are distributed state machines that use the internal state of ledger as Public Key infrastructure for a Byzantine Fault Tolerant consensus process.  One characteristics of Proof of Stake blocking chains that differentiates from Proof of Work chains is that they rely on the cryptographic signatures verified against the internal PKI. Proof of Work chains rely on anonymous signatures of work. Forgery or theft of keys from the internal PKI can undermine the soundness of a Proof of Stake system.
